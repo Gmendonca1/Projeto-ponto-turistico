@@ -8,9 +8,17 @@ body {
   font-family: "Open Sans", sans-serif;
   }
 
-  main { display: block;
-  margin: 88px 80px 137px 80px;
+  main { 
+    box-sizing: border-box;
+    display: block;
+  margin: 80px 80px 40px 80px;
   align-items: center;
+  justify-content: center;
+  max-width: 100% 
+  display: block; 
+  height: auto; 
+  padding: 36px;
+  
   }
 
 #indice {
@@ -124,7 +132,6 @@ h2 {
   
   .textofinal {
     text-align: center;
-    margin-bottom: 65px;
   }
   
   footer {
